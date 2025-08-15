@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="محمد خالد فضل الدوبحي - مطور ويب من اليمن - أبين، مقيم في عدن، طالب هندسة برمجيات.">
+    <meta name="keywords" content="محمد خالد فضل الدوبحي, مطور ويب, هندسة البرمجيات, برمجة, C++, تصميم مواقع, اليمن, عدن, أبين">
+    <title>محمد خالد فضل الدوبحي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #1c1c1c, #2c5364);
+            color: #fff;
+            text-align: center;
+            line-height: 1.6;
+        }
+        header {
+            padding: 40px 20px 60px 20px;
+            background: linear-gradient(to right, #0f2027, #203a43);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        header img.profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #00c3ff;
+            margin-top: 20px;
+        }
+        header h1 {
+            font-size: 32px;
+            margin: 15px 0 5px 0;
+        }
+        header p {
+            font-size: 18px;
+            color: #a0eaff;
+        }
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #00c3ff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: rgba(255,255,255,0.05);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        li:hover {
+            background: rgba(0,195,255,0.2);
+        }
+        a {
+            color: #00c3ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px){
+            header h1 {font-size:28px;}
+            header p {font-size:16px;}
+            section h2 {font-size:20px;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="profile-photo" src="https://github.com/9jjb/mohammed-khalid.github.io/raw/main/0F13F0F2-5A53-488A-B5A5-88E099B79E72.jpeg" alt="محمد خالد الدوبحي">
+        <h1>محمد خالد فضل الدوبحي</h1>
+        <p>مطور ويب | طالب هندسة برمجيات | اليمن - أبين | مقيم في عدن</p>
+    </header>
+
+    <section>
+        <h2>📈 أبرز المشاريع</h2>
+        <ul>
+            <li>مشروع منصة مقالات تقنية وتحليلات برمجية.</li>
+            <li>مشروع مخفي قيد الإنشاء باستخدام تقنيات حديثة.</li>
+            <li>تطوير روبوت تليجرام لأتمتة المهام.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🛠️ المهارات والخبرات</h2>
+        <ul>
+            <li>لغات البرمجة: HTML5، CSS3، C++</li>
+            <li>تصميم الويب: Bootstrap و JavaScript</li>
+            <li>تصميم جرافيك: فوتوشوب لواجهات المستخدم</li>
+            <li>كتابة محتوى متوافق مع SEO و AdSense</li>
+            <li>أتمتة: تصميم روبوتات تليجرام</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📞 تواصل معي</h2>
+        <p>انستغرام: <a href="https://instagram.com/9jjb_" target="_blank">@9jjb_</a></p>
+        <p>واتساب: <a href="https://wa.me/967781187291" target="_blank">+967 781 187 291</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 محمد خالد فضل الدوبحي. جميع الحقوق محفوظة.
+    </footer>
+</body>
+</html>
